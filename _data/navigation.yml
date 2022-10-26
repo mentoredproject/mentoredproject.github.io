@@ -11,8 +11,8 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Sericos"
-      section: Sericos
+    - title: "About"
+      section: About
     - title: "Portfolio"
       section: portfolio
     - title: "About"
