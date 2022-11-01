@@ -2462,6 +2462,7 @@ body.is-touch .main {
 }
 
 #subtitle {
+	position: relative;
 	color: #ffffff;
 	background-color: #192D40;
 	padding: 1%;
@@ -2500,4 +2501,29 @@ div.figure {
 	top: 0;
 	line-height: 10px;
 
+}
+
+#people a {
+	color: inherit;
+}
+
+#people h3 {
+	color: #192D40;
+}
+
+.institutions.column {
+	float: left;
+	width: 33.33%;
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+@media screen and (max-width: 500px) {
+	.column {
+		width: 100%;
+	}
 }
