@@ -1,0 +1,781 @@
+<!DOCTYPE HTML>
+<!--
+	Big Picture by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Cybersecurity | MENTORED Project FAPESP</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+</head>
+
+<body class="is-preload">
+
+	<!-- Header -->
+	<header id="header">
+		<h1>
+			<a href="#intro"> <img id="logo" src="./images/img/logo-mentored_edited.jpg" alt="Logo MENTORED"> </a>
+		</h1>
+
+		<nav>
+			<ul>
+				<li><a href="#intro">Intro</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#people">People</a></li>
+				<li><a href="#dissemination">Dissemination</a></li>
+				<li><a href="#calls">Calls</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li><a href="#institutions">Institutions</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Intro -->
+	<section id="intro" class="main style1 dark fullscreen">
+		<div class="content" style="font-weight: bold;">
+			<header>
+				<h2>MENTORED</h2>
+				<h2>PROJECT</h2>
+			</header>
+			<div>
+				<p><a>A cooperative project among</a></p>
+
+				<p>
+					<a href="https://dcc.ufmg.br/">Federal University of Minas Gerais, </a>
+				</p>
+				<p>
+					<a href="https://www5.usp.br/">University of São Paulo, </a>
+					<a href="https://portal.cin.ufpe.br/"> Federal University of Pernambuco, </a>
+				</p>
+				<p>
+					<a href="https://www.ifsc.edu.br/">Federal Institute of Santa Catarina,</a>
+					<a href="https://www.univali.br/"> University of Itajaí Valley and</a>
+				</p>
+				<p>
+					<a href="https://www.rnp.br/">Rede Nacional de Pesquisa</a>
+				</p>
+
+				<p>
+					<a>A research project selected in the <a
+							href="https://bv.fapesp.br/pt/auxilios/106148/mentored-da-modelagem-a-experimentacao-predizendo-e-detectando-ataques-ddos-e-zero-day/">MCTIC/CGI/FAPESP
+						</a>2018 public call on</a>
+				</p>
+				<p>
+					<a>Strategic Research for the Internet organized by</a>
+				</p>
+				<p>
+					<a href="https://fapesp.br/">São Paulo State Science Foundation (FAPESP)</a></a>
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- About -->
+	<section id="about">
+		<div class="content box style2" style="align-content:center; text-align:justify">
+			<header>
+				<div id="subtitle">
+					<h2 style="font-size: 250%;">About</h2>
+				</div>
+			</header>
+
+			<header>
+				<h2>The Mentored Project</h2>
+			</header>
+
+			<p>
+				The MENTORED project is a cooperative project among the Federal University of Minas Gerais (UFMG), the
+				Federal University of Pernambuco (UFPE), the University of São Paulo (USP), the Federal Institute of
+				Santa Catarina (IFSC), the University of the Itajaí Valley and Rede Nacional de Pesquisa (RNP). It has
+				been selected as a thematic project in the MCTIC/CGI/FAPESP 2018 public call. The project has the
+				following main goals: (i) Identify, model, and evaluate malicious behavior related to IoT; (ii) help in
+				the construction of advanced and coordinated solutions to enable: prevention, prediction, detection, and
+				mitigation of DDoS attacks; and (iii) provide to the scientific community in Cybersecurity a testbed to
+				allow researchers to experiment their solutions regarding to DDoS attacks.
+			</p>
+
+			<header>
+				<h2>Problem</h2>
+			</header>
+			<p>With the increasing of IoT applications and their importance to the global economy, the communication
+				infrastructures and services had shown to be an essential tool and a fundamental element to public
+				well-being and economic stability. Concerns about the security of those systems and networks tend to
+				increase. The malicious attacks on the Internet, the interruption due to physical factors, software and
+				hardware failures, and human errors affect essential public services that operate through public
+				telecommunication networks, leading to chaos. These perturbations reveal our society’s increasing
+				dependency on those networks and services and the importance of protecting them. Its importance is
+				increasingly reinforced through the definition of cybersecurity strategies worldwide, as in European
+				countries, Asia, the USA, and Canada, which consider the cyberspace availability, integrity,
+				authenticity, and confidentiality of data a big issue to the 21st century.
+			</p>
+
+			<p>Therefore, ensuring cybersecurity has been a central goal to governments, companies, and society, as
+				much as on the national level as internationally. Different reports of the European Commission highlight
+				the necessity of security and resilience about the information and communication infrastructure,
+				particularly considering the Internet’s current advances through IoT and IoE. The last one connects many
+				computer devices, many of them embedded in cars, industrial machinery, home appliances, and even in the
+				human body, and offer services that require high availability, efficiency, and security. The IoT and IoE
+				change the actual Internet model, expanding scale, heterogeneity, and complexity of cyberspace,
+				significantly. They need different security solutions that consider their singular characteristics and
+				requirements.
+			</p>
+
+			<p>In Brazil, the Annual Report of Security Incidents of the <a style=" color: inherit;"
+					href="https://www.rnp.br/">Rede Brasileira de Ensino e Pesquisa</a> (RNP),
+				produced by the <a style=" color: inherit;" href="https://www.rnp.br/en/sistema-rnp/cais">Centro de
+					Atendimento a Incidentes de Segurança</a> (CAIS) of the Ipê network, shows that
+				until later 2017, CAIS sent 3.6 million notifications of incidents and vulnerabilities, reinforcing the
+				huge necessity of cybersecurity. Besides that, CAIS highlights the importance and potential of an
+				intelligent analysis of the network data to the understanding (characterizing), prediction, and
+				definition of strategies against attacks and threats. The modeling of attacks helps comprehend the
+				behavior of attacks and threats, as in the early prediction of new occurrences and new types
+				(unknown/zero-day) of attacks, reducing financial and moral damage to the institutions.
+			</p>
+
+			<p>CAIS, a partner of this project, clearly reinforces that, despite RNP efforts to implement methodologies
+				to prevent and mitigate attacks, as in Distributed Denial of Service - DDoS, the defense against
+				malicious activities in the Brazilian network of education and research continues being relevant.
+			</p>
+
+			<p>In this scenario, the challenge to maximize the efficiency against attacks goes through the coordinated
+				operation of three complementary defense axes: (i) prevention, (ii) prediction, (iii) detection and
+				mitigation of attacks. Typically, each IoT device communicates with an associated application on
+				smartphones or tablets connected directly or indirectly over a central point (hub) or by the
+				manufacturer’s services in the cloud, mainly to remotely access IoT devices. It is also common the
+				communication between IoT and manufacturer's servers to status updates or searches for software updates.
+			</p>
+
+			<p>The local monitoring of IoT devices flow as well as the interactions between the devices and external
+				devices (neighborhood and Internet) and the imposition of obedience to flow policies by devices have
+				been treated currently as a way to prevent DDoS attacks using IoT devices (e.g., FlowFence, IoT-Flows).
+				In order to treat IoT network scenarios without local prevention mechanisms or security mechanisms
+				compromised, it is necessary to identify signs of attack preparation from the IoT devices' behavior in
+				its early stages (prediction). As a complement, determining the behavior of botnets and developing
+				techniques to detect and mitigate the attacks are still relevant to cases where prevention and
+				prediction had not achieved success, given the complexity and big potential logistic, economic and moral
+				damages of those attacks to people, companies, and government. Lastly, it is imperative that a
+				large-scale experimentation environment allows the behavior analysis of attacks and the evaluation of
+				proposed solutions.</p>
+
+			<header>
+				<h2>Main goals</h2>
+			</header>
+			<p>The MENTORED project main goal consists of advancing scientific knowledge, human resources training, and
+				enhancement of a group with international coverage to cooperate in research and innovation in systems
+				and network security with the participation of academic institutions, a small company, and the
+				government. Besides that, this project aims to identify, model, and evaluate malicious behavior
+				associated with the Internet of Things (IoT) to help build advanced solutions to the prevention,
+				prediction, detection, and mitigation of DDoS attacks.</p>
+
+			<p>The specific goals are:</p>
+
+			<ul style="position: relative;list-style: outside	;padding: 0 1.5%;">
+
+				<li>Objective 1: The design of a monitoring solution of IoT flows to prevent attacks and help the
+					modeling, detection, and prediction of botnets and DDoS attacks;</li>
+
+				<li>Objective 2: The risk analysis by the identification of botnets formed by IoT devices and the
+					prediction of known and unknown (zero-day) DDoS attacks;</li>
+
+				<li>Objective 3: The identification and classification of malicious behavior related to DDoS attacks and
+					the proposition of a solution to detect and mitigate those attacks;</li>
+
+				<li>Objective 4: The design and implementation of an experimentation environment (testbed), with access
+					control, in which the solutions proposed in this project can be tested.</li>
+			</ul>
+		</div>
+
+	</section>
+
+	<!-- People -->
+	<section id="people" class="content box style2" style="align-content:center; text-align:justify">
+		<div class="content">
+			<header>
+				<div id="subtitle">
+					<h2 style="font-size: 250%;">Researchers</h2>
+				</div>
+			</header>
+
+			<header style="text-align:center; margin-top: 3%; margin-bottom: 3%;">
+				<h3>Federal University of Minas Gerais</h3>
+			</header>
+			<!-- Gallery  -->
+
+			<div class="researchers row">
+				<div class="figure researchers column">
+					<p><img src="./images/img/Michele.png" /></p>
+					<p>
+						<a href="http://lattes.cnpq.br/7862253799240671">Michele Nogueira,
+							Ph.D.</a>
+					</p>
+					<p>
+						(Principal Investigator)
+					</p>
+				</div>
+				<div class="figure researchers column">
+					<p><img src="./images/img/AldriSantos.jpg" t /></p>
+					<p>
+						<a href="http://lattes.cnpq.br/0957641516282703">Aldri Santos, Ph.D.</a>
+					</p>
+					<p>
+						(Co-Principal Investigator)
+					</p>
+				</div>
+
+			</div>
+
+			<header style="text-align:center; margin-top: 3%; margin-bottom: 3%;">
+				<h3>Federal University of Pernambuco</h3>
+			</header>
+
+			<div class="researchers row">
+				<div class="figure researchers column">
+					<p><img src="./images/img/suruagy.jpg" t /></p>
+					<p>
+						<a href="http://lattes.cnpq.br/2887736963561252">José Augusto Suruagy Monteiro, Ph.D.</a>
+					</p>
+					<p>
+						(Co-Principal Investigator)
+					</p>
+					</p>
+				</div>
+				<div class="figure researchers column">
+					<p>
+						<img src="./images/img/paulo-andre-da-silva.jpg" />
+					</p>
+					<p>
+						<a href="http://lattes.cnpq.br/3392035824905803">Paulo André da Silva Gonçalves, Ph.D.</a>
+					</p>
+					<p>
+						(Associate Researcher)
+					</p>
+				</div>
+			</div>
+
+			<header style="text-align:center; margin-top: 3%; margin-bottom: 3%;">
+				<h3>University of São Paulo</h3>
+			</header>
+
+			<div class="figure">
+				<p><img src="./images/img/daniel.jpg" />
+				<p>
+					<a href="http://lattes.cnpq.br/2934786440085983">Daniel Macêdo Batista, Ph.D</a>
+				</p>
+				<p>
+					(Associate Researcher)
+				</p>
+			</div>
+
+
+			<header style="text-align:center; margin-top: 3%; margin-bottom: 3%;">
+				<h3>University of Vale do Itajaí</h3>
+			</header>
+
+			<div class="figure">
+				<p><img src="./images/img/michelle-wagham.jpg" />
+				<p>
+					<a href="http://lattes.cnpq.br/8951163088992771">Michelle Silva Wangham, Ph.D.</a>
+				</p>
+				<p>
+					(Associate Researcher)
+				</p>
+			</div>
+
+
+			<header style="text-align:center; margin-top: 3%; margin-bottom: 3%;">
+				<h3>Federal Institute of Santa Catarina</h3>
+			</header>
+
+			<div class="figure">
+				<p><img src="./images/img/emersonmello.jpg" />
+				<p>
+					<a href="http://lattes.cnpq.br/1478274711167428">Emerson Ribeiro de Mello, Ph.D. </a>
+				</p>
+				<p>
+					(Associate Researcher)
+				</p>
+			</div>
+
+			<header style="text-align:center; margin-top: 3%; margin-bottom: 3%;">
+				<h3>Rede Nacional De Ensino e Pesquisa</h3>
+			</header>
+
+			<div class="researchers row">
+				<div class="figure researchers column">
+					<p><img src="./images/img/andre-marins.jpeg" /></p>
+					<p>
+						<a href="">Andre Marins, M.Sc.</a>
+					</p>
+					<p>
+						(Co-Principal Investigator)
+					</p>
+					</p>
+				</div>
+				<div class="figure researchers column">
+					<p>
+						<img src="./images/img/clayton-reis.png" />
+					</p>
+					<p>
+						<a href="">Clayton Reis, M.Sc.</a>
+					</p>
+					<p>
+						(Associate Researcher)
+					</p>
+				</div>
+			</div>
+
+
+		</div>
+	</section>
+
+
+	<section id="dissemination">
+		<div class="content box style2" style="align-content:center; text-align:justify">
+			<header>
+				<div id="subtitle">
+					<h2 style="font-size: 250%;">Dissemination</h2>
+				</div>
+			</header>
+
+		</div>
+	</section>
+
+	<!-- Calls -->
+	<section id="calls">
+		<div class="content box style2" style="align-content:center; text-align:justify">
+			<header>
+				<div id="subtitle">
+					<h2 style="font-size: 250%;">Calls</h2>
+				</div>
+			</header>
+
+
+			<p>Please, see below the opportunities to join our project. Observe that we have a the description
+				of the opportunities in Portuguese (PT) and English (EN).</p>
+
+			<button class="collapsible">Chamada TT3 e TT4 (PT)</button>
+			<div id="content3">
+				<header>
+					<h3>Seleção de Bolsistas em Cibersegurança (Chamada Aberta)</h3>
+				</header>
+
+				<p>
+					Buscamos por candidatos que tenham interesse em aprofundar conhecimentos nas áreas de redes de
+					computadores, sistemas distribuídos e segurança de redes e assim atuar no projeto de pesquisa
+					multi-institucional (UFMG, CAIS, IFSC, RNP, USP, UFPE, UNIVALI, CMU/EUA e Sorbonne
+					Université/França) intitulado "MENTORED: Da modelagem à experimentação - predizendo e detectando
+					ataques DDoS e Zero-day". O projeto tem por objetivo geral identificar, modelar e avaliar
+					comportamentos maliciosos associados à IoT de forma a auxiliar na construção de soluções avançadas e
+					coordenadas para possibilitar: prevenção, predição, detecção e mitigação de ataques de DDoS. Mais
+					especificamente, os bolsistas atuarão no pacote de trabalho 4 do projeto, cujo objetivo principal
+					consiste na criação de um ambiente controlado para experimentação em cibersegurança (MENTORED
+					testbed).
+				</p>
+				<p>
+					Durante a execução da bolsa, espera-se que o bolsista interaja com um grande grupo de pesquisadores
+					composto por professores, pesquisadores, alunos de doutorado, alunos de mestrado e alunos de
+					graduação.
+				</p>
+				<h4>Bolsas disponíveis</h4>
+				<ul>
+
+					<li>1 bolsa FAPESP TT4 (R$ 3.570,80 - 40h semanais). Para graduado na área de computação ou
+						engenharia com pelo menos 2 anos de experiência após a graduação ou título de mestrado na área,
+						sem vínculo empregatício.</li>
+					<li>1 bolsa FAPESP TT3 ( R$ 1.412,80 - 20h semanais). Para graduado na área de computação ou
+						engenharia, sem reprovações em seu histórico escolar e sem vínculo empregatício.</li>
+				</ul>
+
+				<h4>Requisitos necessários</h4>
+				<ul>
+					<li>Experiência com a linguagem Java ou Python</li>
+					<li>Experiência com o desenvolvimento de Serviços Web RESTful</li>
+					<li>Experiência com o sistema operacional Linux</li>
+					<li>Conhecimentos sobre redes de computadores e sistemas distribuídos</li>
+				</ul>
+				<h4>Requisitos desejáveis</h4>
+				<ul>
+					<li>Soluções de virtualização e containers Docker</li>
+					<li>Kubernetes</li>
+					<li>Frameworks e linguagens para desenvolvimento de frontend web</li>
+					<li>Criptografia simétrica e assimétrica</li>
+				</ul>
+				<p>Possibilidade de trabalho remoto.</p>
+				<p>Interessados, por favor, enviar para <a style="color: unset;"
+						href="mailto:mentored.project@gmail.com">mentored.project@gmail.com</a> histórico escolar e o cv
+					lattes
+					destacando seus conhecimentos e experiências. Em seguida, agendaremos uma entrevista.
+
+					​</p>
+			</div>
+			<button class="collapsible">Chamada Pós-doutorado (PT)</button>
+			<div id="content3">
+				<header>
+					<h3>Oportunidades Abertas de Pós-Doutorado em Cibersegurança
+						(Chamada Aberta)</h3>
+				</header>
+
+				<p>
+					Buscamos por candidatos que tenham interesse em aprofundar conhecimentos nas áreas de redes de
+					computadores, sistemas distribuídos e segurança de redes e assim atuar no projeto de pesquisa
+					multi-institucional (UFMG, CAIS, IFSC, RNP, USP, UFPE, UNIVALI, CMU/EUA e Sorbonne
+					Université/França) intitulado "MENTORED: Da modelagem à experimentação - predizendo e detectando
+					ataques DDoS e Zero-day". O projeto tem por objetivo geral identificar, modelar e avaliar
+					comportamentos maliciosos associados à IoT de forma a auxiliar na construção de soluções avançadas e
+					coordenadas para possibilitar: prevenção, predição, detecção e mitigação de ataques de DDoS.
+
+				</p>
+				<h4>Resumo</h4>
+				<p>O projeto MENTORED abre seleção para três (3) vagas a bolsista de pós-doutorado a fim de desenvolver
+					pesquisas relacionadas à detecção, predição e mitigação de ataques de negação de serviço na Internet
+					das Coisas. O(A) candidato(a) precisa ter completado o doutorado há menos de sete anos e possuir um
+					diploma de doutorado em Computação, Engenharias ou equivalentes, relacionado a pelo menos um dos
+					tópicos a seguir: Redes de Computadores, Monitoramento de Redes de Computadores, Segurança em Redes,
+					Internet das Coisas, Sistemas Distribuídos ou ambientes de experimentação (testbed).</p>
+				<p>O(A) candidato(a) selecionado(a) receberá uma bolsa de pós-doutorado da FAPESP no valor de R$
+					8.479,20 (atualizado em 01 de Março de 2022) por mês para 40 horas/semana mais reserva técnica de
+					15% do valor anual da bolsa, por ano. Para mais detalhes, veja a página da FAPESP:
+					http://www.fapesp.br/bolsas/pd (Bolsa de Pós-Doutorado vinculada a Projeto Temático). </p>
+				<h4>Mais sobre o projeto</h4>
+				<p>A popularização da Internet e os avanços desta em direção à Internet das Coisas (Internet of
+					Things - IoT) têm aumentado as expectativas em relação às novas aplicações e serviços em
+					diferentes áreas. Apesar de grandes oportunidades e benefícios, esses avanços na Internet também
+					abrem espaço para grandes ameaças e perigos, alguns até então inexistentes. Em particular, há
+					preocupação em melhorar as proteções contra ataques de Negação de Serviço Distribuído (DDoS) e
+					contra novos ataques que venham surgir como consequência da ampliação da IoT.</p>
+				<p>As vagas abertas são para atuação ativa do(a) bolsista em um dos pacotes de trabalho descritos a
+					seguir.</p>
+				<ul>
+
+					<li>Pacote de trabalho 1: Monitoramento de tráfego IoT e prevenção de ataques DDoS desempenhando as
+						seguintes atividades: desenvolvimento e planejamento do posicionamento da infraestrutura de
+						monitoração; caracterização de dispositivos IoT e identificação de ataques de personificação; e
+						estudo e proposição de mecanismos de reconfiguração dinâmica de políticas de obediência, além da
+						assistência na escrita de artigos científicos e relatórios, definição de experimentos e análise
+						dos resultados.</li>
+					<li>Pacote de trabalho 3: Detecção de ataques na IoT desempenhando as seguintes atividades: avanço
+						no levantamento da literatura, caracterização do comportamento do ataques em níveis de rede e
+						aplicação, estudo e proposição de mecanismos de detecção para os ambientes IoT, além da
+						assistência na escrita de artigos científicos e relatórios, definição de experimentos e análise
+						dos resultados;</li>
+					<li>Pacote de trabalho 4: Criação de um ambiente experimental para cibersegurança desempenhando as
+						seguintes atividades: avanço do levantamento de outros ambientes experimentais para
+						cibersegurança e entendimento de seu funcionamento, auxílio na orientação de bolsistas nos
+						níveis de doutorado, mestrado e graduação envolvidos no pacote de trabalho 4, assistência na
+						documentação dos avanços do ambiente experimental e na escrita de relatórios e artigos
+						científicos, além de auxílio na definição de experimentos e análise dos resultados.</li>
+				</ul>
+				<h4>Das vagas</h4>
+				<p>O bolsista selecionado para o pacote de trabalho 1 deverá residir na cidade de Recife, PE. Os
+					bolsistas selecionados para os pacotes de trabalho 3 e 4 deverão residir na cidade de Belo
+					Horizonte, MG. Os bolsistas devem ter fluência na leitura e na escrita nas línguas portuguesa e
+					inglesa. </p>
+				<ul>
+
+					<li>Bolsista para o pacote de trabalho 1
+						<ul class="content3-second">
+							<li>Local de atuação: Centro de Informática da UFPE, Recife - PE</li>
+							<li>Duração: 24 (vinte e quatro) meses e pode ser renovada por mais 12 meses.</li>
+							<li>Supervisão: Prof. José Augusto Suruagy Monteiro (UFPE) e Prof. Paulo André da Silva
+								Gonçalves (UFPE)</li>
+						</ul>
+					</li>
+					<li>Bolsista para o pacote de trabalho 3
+						<ul class="content3-second">
+							<li>Local de atuação: Departamento de Ciência da Computação (DCC) da Universidade Federal de
+								Minas Gerais, Belo Horizonte, MG</li>
+							<li>Duração: 24 (vinte e quatro) meses e pode ser renovada por mais 12 meses</li>
+							<li>Supervisão: Profa. Michele Nogueira Lima (UFMG) e Prof. Aldri Luiz dos Santos (UFMG)
+							</li>
+						</ul>
+					</li>
+					<li>Bolsista para o pacote de trabalho 4
+						<ul class="content3-second">
+							<li>Local de atuação: Departamento de Ciência da Computação (DCC) da Universidade Federal de
+								Minas Gerais, Belo Horizonte, MG</li>
+							<li>Duração: 12 (doze) meses.</li>
+							<li>Supervisão: Profa. Michele Nogueira Lima (UFMG), Profa. Michelle Silva Wangham (UNIVALI)
+								e prof. Emerson Ribeiro de Mello (IFSC).</li>
+						</ul>
+					</li>
+				</ul>
+				<h4>Da seleção</h4>
+				<p>O processo de seleção consiste na análise dos documentos de inscrição dos candidatos (primeiro passo)
+					e em uma entrevista via videoconferência com os candidatos selecionados (segundo passo). O resultado
+					do primeiro passo do processo de seleção será informado por e-mail. A entrevista será agendada com
+					cada candidato por e-mail.</p>
+
+				<h4>Da inscrição</h4>
+				<p>Os candidatos devem enviar sua documentação por e-mail para <a style="color: unset;"
+						href="mailto:mentored.project@gmail.com">mentored.project@gmail.com</a>. A
+					documentação necessária para a aplicação é uma carta de apresentação em português ou inglês em que
+					o(a) candidato(a) mostre seu portfólio de projetos nos tópicos propostos para este edital, o
+					Curriculum Vitae acadêmico atualizado e a indicação de dois profissionais de referência (nome, email
+					e telefone) que conheça o candidato e que poderá ser contatado pela equipe do Projeto. As
+					candidaturas podem ser realizadas até que o cargo seja preenchido. Início previsto do bolsista no
+					projeto: 01 de novembro de 2022</p>
+
+				<h4>Maiores informações</h4>
+				<p>Para maiores informações, por favor, enviar mensagem para <a style="color: unset;"
+						href="mailto:mentored.project@gmail.com">mentored.project@gmail.com</a>
+
+				</p>
+			</div>
+			<button class="collapsible">Postdoctoral - Open Positions (EN)</button>
+			<div id="content3">
+				<header>
+					<h3>Postdoctoral Fellowship - Open Positions in Cybersecurity
+						(This call is still open)</h3>
+				</header>
+
+				<p>We have three postdoctoral positions in Computer Science - Cybersecurity, starting from November 2022
+					in Brazil. Successful candidates will join us in the insightful and challenging research project
+					“MENTORED: From Modeling to Experimentation - Predicting and Detecting DDoS and Zero-day attacks”
+					from MCTIC/FAPESP. The team of the MENTORED project comprises researchers from different
+					institutions in Brazil, having as Principal Investigator Prof. Michele Nogueira.
+
+				<p>Each successful candidate will receive a FAPESP postdoctoral fellowship, a monthly stipend of R$
+					8.479,20, and research contingency funds (15% of the annual value of the fellowship per year).
+					<br>
+					Further details on the FAPESP webpage: <a style="color: unset;"
+						href="http://www.fapesp.br/en/5427">http://www.fapesp.br/en/5427.</a>
+				</p>
+				<p>
+					Application deadline: until the position is filled.
+					<br>
+					Application e-mail: <a style="color: unset;"
+						href="mailto:mentored.project@gmail.com">mentored.project@gmail.com</a>
+					<br>
+					For questions: <a style="color: unset;" href="mailto:michele@dcc.ufmg.br">michele@dcc.ufmg.br</a>
+				</p>
+
+				<p>For further information about the positions, please see below.</p>
+
+
+				<h4>About the project</h4>
+				<p>The research project MCTI/FAPESP MENTORED (From Modeling to Experimentation: Predicting and Detecting
+					DDoS and Zero-day attacks) in Cybersecurity has four (3) postdoctoral fellowship open positions in
+					Brazil. Successful candidates must have completed his/her Ph.D. in Computer Science, Engineering, or
+					equivalent less than seven years ago. The candidate must provide a history of relevant research in
+					areas such as Computer Networks, Network Security, or the Internet of Things. </p>
+
+				<h4>Research project </h4>
+				<p>This project aims to identify, model, and evaluate malicious behavior associated with IoT to help in
+					the construction of advanced and coordinated solutions to enable the prevention, prediction,
+					detection, and mitigation of DDoS attacks. The successful candidates will work actively in one of
+					the work packages described below.</p>
+				<ul>
+					<li>Work package 1: IoT traffic monitoring and DDoS attack prevention. The Postdoctoral fellow will
+						perform the following tasks: the development and planning of monitoring infrastructure
+						placement; the characterization of IoT devices and the detection of impersonation attacks; and
+						the study and proposition of mechanisms for the dynamic reconfiguration of compliance policies
+						in addition to assist in writing scientific articles and reports, defining experiments and
+						analyzing the results.</li>
+					<li>Work package 3: IoT attacks detection. The Postdoctoral fellow will perform the following tasks:
+						advance the literature survey, the characterization of attack behavior at network and
+						application levels, the study and proposition of detection mechanisms for IoT environments, and
+						also write scientific articles and reports, define experiments and analyze results;</li>
+					<li>Work package 4: Experimental environment for cybersecurity. The Postdoctoral fellow will perform
+						the following tasks: advance the literature survey on other experimental environments for
+						cybersecurity and understand them, assistance to students and other fellowship holders involved
+						in the work package 4, assistance in documenting advances achieved in the experimental
+						environments and write scientific reports and articles, as well as assistance in defining
+						experiments and analyzing the results.</li>
+				</ul>
+
+				<h4>Positions</h4>
+				<p>The selected candidate for work package 1 must live in the city of Recife, in the State of Pernambuco
+					(move there if not yet in place). The selected candidates for work packages 3 and 4 must live in the
+					city of Belo Horizonte, in the State of Minas Gerais (move there if not yet in place). The selected
+					candidates must be fluent in English.</p>
+
+				<p>
+					Fellowship for work package 1
+					<br>
+					Place of work: Informatics Center, Federal University of Pernambuco, Recife - PE
+					<br>
+					Duration: 24 months and can be extended for another 12 months
+					<br>
+					Supervision: Prof. José Augusto Suruagy Monteiro (UFPE) and Prof. Paulo André da Silva Gonçalves
+					(UFPE)
+				</p>
+				<p>
+					Fellowship for work package 3
+					<br>
+					Place of work: Department of Computer Science (DCC), Federal University of Minas Gerais, Belo
+					Horizonte, MG
+					<br>
+					Duration: 24 months and can be extended for another 12 months
+					<br>
+					Supervision: Prof. Michele Nogueira Lima (UFMG) and Prof. Aldri Luiz dos Santos (UFMG)
+				</p>
+				<p>
+					Fellowship for work package 4
+					<br>
+					Place of work: Department of Computer Science (DCC), Federal University of Minas Gerais, Belo
+					Horizonte, MG
+					<br>
+					Duration: 12 months
+					<br>
+					Supervision: Prof. Michele Nogueira Lima (UFMG), Prof. Michelle Silva Wangham (UNIVALI), and prof.
+					Emerson Ribeiro de Mello (IFSC).
+				</p>
+
+				<h4>Selection
+				</h4>
+				<p>
+					The selection process comprises the analysis of the application documents (first step) and an
+					interview by videoconference with the selected candidates (second step). The results from the first
+					step will be announced by e-mail and the interview will be scheduled with each candidate.</p>
+
+				<h4>Application</h4>
+				<p>Candidates must apply via e-mail to <a style="color: unset;"
+						href="mailto:mentored.project@gmail.com">mentored.project@gmail.com</a>. To apply, it is
+					required a cover
+					letter, in which the candidate shows his/her portfolio of projects in the topics of this call,
+					his/her updated Curriculum Vitae (CV), and the indication of two references (name, email and
+					telephone number) who can be contacted by the project team. Applications will be accepted until the
+					position is filled. The estimated date to start in the project for the selected candidates is
+					November 2022.
+
+				<h4>Further Information</h4>
+				<p>For further information, please send a message to <a style="color: unset;"
+						href="mailto:mentored.project@gmail.com">mentored.project@gmail.com</a></p>
+
+				</p>
+
+			</div>
+
+
+			<script>
+				var coll = document.getElementsByClassName("collapsible");
+				var i;
+
+				for (i = 0; i < coll.length; i++) {
+					coll[i].addEventListener("click", function () {
+						this.classList.toggle("active");
+						var content = this.nextElementSibling;
+						if (content.style.maxHeight) {
+							content.style.maxHeight = null;
+						} else {
+							content.style.maxHeight = content.scrollHeight + "px";
+						}
+					});
+				}
+			</script>
+
+		</div>
+	</section>
+
+	<!-- Contact -->
+	<section id="contact" class="main style3 secondary">
+		<div class="content" style="color: rgb(249, 248, 248)">
+			<header>
+				<h2>CONTACT US</h2>
+			</header>
+			<div class="content2">
+				<p>Please, feel free to send us an email:</p>
+				<p>Address: Av. Antônio Carlos, 6627 - Prédio do ICEx </p>
+				<p>Pampulha, Belo Horizonte, Minas Gerais, Brasil</p>
+				<p>CEP: 31270-901. Tel.:+55 (31) 3409 5860</p>
+				<p>Email: <a style="color: unset;"
+						href="mailto:mentored.project@gmail.com">mentored.project@gmail.com</a></p>
+			</div>
+
+			<div class="box" style="background-color: #ffffff">
+				<form method="post" action="#">
+					<div class="fields">
+						<div id="contc" class="field half"><input type="text" name="name" placeholder="Name" />
+						</div>
+						<div id="contc" class="field half"><input type="email" name="email" placeholder="Email" /></div>
+						<div id="contc" class="field"><textarea name="subject" placeholder="Subject"></textarea>
+						</div>
+						<div id="contc" class="field"><textarea name="message" placeholder="Message"
+								rows="6"></textarea></div>
+					</div>
+					<ul class="actions special">
+						<li><input type="submit" value="Send" /></li>
+					</ul>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<!--Institutions-->
+	<section id="institutions">
+		<div class="content box style2" style="align-content:center; text-align:justify">
+			<div class="institutions row">
+				<header>
+					<div id="subtitle">
+						<h2 style="font-size: 250%;">Institutions</h2>
+					</div>
+				</header>
+				<div class="figure institutions column">
+					<header>
+						<h2>Funding</h2>
+					</header>
+					<a href="https://fapesp.br/"> <img src="./images/img/FAPESP.png" /> </a>
+					<a href="https://www.gov.br/mcti/pt-br"><img src="./images/img/MCTIC.jpg" /> </a>
+					<a href="https://www.cgi.br/"> <img src="./images/img/pngegg.png" /> </a>
+				</div>
+				<div class="figure institutions column">
+					<header>
+						<h2>Partners</h2>
+					</header>
+					<a href="https://dcc.ufmg.br/"><img src="./images/img/ufmg-logo.png" /></a>
+					<a href="https://portal.cin.ufpe.br/"> <img src="./images/img/ufpe-logo-com-nome.jpg" /></a>
+					<a href="https://www5.usp.br/"><img src="./images/img/usp-logo.png" /></a>
+					<a href="https://www.univali.br/"><img src="./images/img/univali-logo.png" /></a>
+					<a href="https://www.ifsc.edu.br/"><img src="./images/img/ifsc-logo.png" /></a>
+					<a href="https://www.rnp.br/"><img src="./images/img/logo.png" /></a>
+				</div>
+				<div class="figure institutions column">
+					<header>
+						<h2>Organizer</h2>
+					</header>
+					<a href="http://www.ccsc-research.org/"><img src="./images/img/michelenog_DP03(1).png" /></a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Footer -->
+	<footer id="footer">
+
+		<!-- Icons -->
+		<ul class="icons">
+			<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+			<li><a href="https://www.facebook.com/mentoredproject/" class="icon brands fa-facebook-f"><span
+						class="label">Facebook</span></a></li>
+			<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+			<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+		</ul>
+
+		<!-- Menu -->
+		<ul class="menu">
+			<li>&copy; 2020-2022 Mentored Project</li>
+		</ul>
+
+	</footer>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.poptrox.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
