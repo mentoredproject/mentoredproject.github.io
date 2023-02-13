@@ -2386,6 +2386,7 @@ body.is-touch .main {
 	background-attachment: fixed, fixed;
 	background-position: top left, bottom center;
 	background-repeat: repeat, no-repeat;
+	line-height: 1;
 }
 
 /* One */
@@ -2472,11 +2473,18 @@ body.is-touch .main {
 	margin: 0 auto;
 }
 
+/* Researchers Page */
+
 .researchers {
 	width: 100%;
 }
 
-.researchers.column {
+.researchers.column-two {
+	float: left;
+	width: 25%;
+}
+
+.researchers.column-one {
 	float: left;
 	width: 50%;
 }
@@ -2499,7 +2507,7 @@ div.figure {
 	color: black;
 	left: 0;
 	top: 0;
-	line-height: 10px;
+	line-height: 1px;
 
 }
 
@@ -2526,6 +2534,10 @@ div.figure {
 	.column {
 		width: 100%;
 	}
+}
+
+.universities-title {
+	columns: 2;
 }
 
 /* Calls 2 */
@@ -2627,4 +2639,75 @@ summary::-webkit-details-marker {
 .content3-second li {
 	position: relative;
 	list-style: circle;
+}
+
+/* Index page */
+
+#about-index {
+	font-size: 1.4vw;
+	line-height: 1.6;
+}
+
+#about-button {
+	background-color: #192D40;
+	border-radius: 0;
+	font-size: 1vw;
+	width: 10vw;
+	margin-top: 3rem;
+}
+
+#home-list {
+	position: relative;
+	list-style-type: decimal;
+	padding: 0 15%;
+	max-width: 95rem;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+#home-list a {
+	font-weight: bold;
+	color: inherit;
+	
+}
+
+.infrastructure-image {
+	position: relative;
+	margin-top: 5rem;
+	 width: 45%;
+    text-align: center;
+    margin: 0 auto;
+	/*height: 100%; */
+	/* margin-top: 10rem; */
+}
+
+.mission-image {
+	position: relative;
+	margin-top: 5rem;
+	width: 40vw;
+	height: 18vw;
+	left: 10rem;
+	/* width: 100%;
+	height: 100%; */
+	/* top: 15rem; */
+}
+
+.mission-legend {
+	margin-top: -20rem;
+	left: 10rem;
+	text-align: right;
+	line-height: 3rem;
+    /* background: rgba(0, 0, 0, 0.5); */
+    color: rgb(0, 0, 0);
+    position: relative;
+	font-size: 1.5rem;
+	max-width: 30rem;
+    /* bottom: 0;
+    left: 0;
+    right: 0; */
+}
+.mission-legend-signature{
+	color: unset;	
+	font-weight: bold;
 }
