@@ -2641,6 +2641,18 @@ summary::-webkit-details-marker {
 	list-style: circle;
 }
 
+.content4 ol {
+	position: relative;
+	list-style: outside;
+	padding: 0 3%;
+}
+
+.content4-second li {
+	position: relative;
+	list-style: decimal outside;
+}
+
+
 /* Index page */
 
 #about-index {
@@ -2661,23 +2673,23 @@ summary::-webkit-details-marker {
 	list-style-type: decimal;
 	padding: 0 15%;
 	max-width: 95rem;
-    text-align: center;
-    margin: 0 auto;
+	text-align: center;
+	margin: 0 auto;
 
 }
 
 #home-list a {
 	font-weight: bold;
 	color: inherit;
-	
+
 }
 
 .infrastructure-image {
 	position: relative;
 	margin-top: 5rem;
-	 width: 45%;
-    text-align: center;
-    margin: 0 auto;
+	width: 45%;
+	text-align: center;
+	margin: 0 auto;
 	/*height: 100%; */
 	/* margin-top: 10rem; */
 }
@@ -2698,16 +2710,48 @@ summary::-webkit-details-marker {
 	left: 10rem;
 	text-align: right;
 	line-height: 3rem;
-    /* background: rgba(0, 0, 0, 0.5); */
-    color: rgb(0, 0, 0);
-    position: relative;
+	/* background: rgba(0, 0, 0, 0.5); */
+	color: rgb(0, 0, 0);
+	position: relative;
 	font-size: 1.5rem;
 	max-width: 30rem;
-    /* bottom: 0;
+	/* bottom: 0;
     left: 0;
     right: 0; */
 }
-.mission-legend-signature{
-	color: unset;	
+
+.mission-legend-signature {
+	color: unset;
 	font-weight: bold;
+}
+
+
+/* Publications */
+
+#publications {
+	margin-top: 1em;
+}
+
+/* #publications h3 {
+	font-size: 2em;
+} */
+
+#publications p,
+li {
+	font-size: 1em;
+	text-align: justify;
+}
+
+#publications h3  {
+	font-size: 2em;
+	position: relative;
+	color: #ffffff;
+	background-color: #192D40;
+	padding: 1%;
+	border-radius: 0.5em;
+	width: fit-content;
+	overflow: hidden;
+}
+#publications i  {
+	color: #192D40;
 }
