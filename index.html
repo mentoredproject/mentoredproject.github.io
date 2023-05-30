@@ -9,130 +9,174 @@
 <head>
 	<title>Cybersecurity | MENTORED Project FAPESP</title>
 	<meta charset="utf-8" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
+	<link rel="icon" type="image/png" href="./images/logo-mentored_edited.jpg" />
 </head>
 
 <body class="is-preload">
 
 	<!-- Header -->
 	<header id="header">
-		<h1>
-			<a href="#intro"> <img id="logo" src="./images/img/logo-mentored_edited.jpg" alt="Logo MENTORED"> </a>
-		</h1>
+		<div class="container">
+			<h1>
+				<a href="./#intro"> <img id="logo" src="./images/logo-mentored_edited.jpg" alt="Logo MENTORED"> </a>
+			</h1>
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon text-center"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="./#intro">Intro</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./about">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./researchers">People</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./dissemination">Dissemination</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./calls">Calls</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./#contact">Contact</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./#institutions">Institutions</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
 
-		<nav>
-			<ul>
-				<li><a href="./">Intro</a></li>
-				<li><a href="./about">About</a></li>
-				<li><a href="./researchers">People</a></li>
-				<li><a href="./dissemination">Dissemination</a></li>
-				<li><a href="./calls">Calls</a></li>
-				<li><a href="#contact">Contact</a></li>
-				<li><a href="#institutions">Institutions</a></li>
-			</ul>
-		</nav>
+		</div>
 	</header>
 
 
+
 	<!-- Intro -->
-	<section id="intro" class="main style1 dark ">
-		<div class="content" style="font-weight: bold;">
-			<header>
-				<h2>MENTORED</h2>
-				<h2>PROJECT</h2>
-			</header>
-			<div>
-				<p><a>A cooperative project among</a></p>
+	<section id="intro" class="main style1 dark">
+		<div class="container-fluid">
+			<div class="content">
+				<header>
+					<h2>MENTORED</h2>
+					<h2>PROJECT</h2>
+				</header>
+				<div>
+					<p class="mb-2">A cooperative project among</p>
 
-				<p>
-					<a href="https://dcc.ufmg.br/">Federal University of Minas Gerais, </a>
-				</p>
-				<p>
-					<a href="https://www5.usp.br/">University of São Paulo, </a>
-					<a href="https://portal.cin.ufpe.br/"> Federal University of Pernambuco, </a>
-				</p>
-				<p>
-					<a href="https://www.ifsc.edu.br/">Federal Institute of Santa Catarina,</a>
-					<a href="https://www.univali.br/"> University of Itajaí Valley and</a>
-				</p>
-				<p>
-					<a href="https://www.rnp.br/">Rede Nacional de Pesquisa</a>
-				</p>
+					<div class="row mb-2">
+						<div class="col">
+							<a href="https://dcc.ufmg.br/">Federal University of Minas Gerais</a>
+						</div>
+					</div>
 
-				<p>
-					<a>A research project selected in the <a
+					<div class="row mb-2">
+						<div class="col">
+							<a href="https://www5.usp.br/">University of São Paulo, </a>
+							<a href="https://portal.cin.ufpe.br/">Federal University of Pernambuco</a>
+						</div>
+					</div>
+
+					<div class="row mb-2">
+						<div class="col">
+							<a href="https://www.ifsc.edu.br/">Federal Institute of Santa Catarina, </a>
+							<a href="https://www.univali.br/">University of Itajaí Valley and </a>
+						</div>
+					</div>
+
+					<div class="row mb-2">
+						<div class="col">
+							<a href="https://www.rnp.br/">Rede Nacional de Pesquisa</a>
+						</div>
+					</div>
+
+					<p class="mb-2">A research project selected in the
+						<a
 							href="https://bv.fapesp.br/pt/auxilios/106148/mentored-da-modelagem-a-experimentacao-predizendo-e-detectando-ataques-ddos-e-zero-day/">MCTIC/CGI/FAPESP
-						</a>2018 public call on</a>
-				</p>
-				<p>
-					<a>Strategic Research for the Internet organized by</a>
-				</p>
-				<p>
-					<a href="https://fapesp.br/">São Paulo State Science Foundation (FAPESP)</a></a>
-				</p>
+							2018 public call on </a>
+						<br />
+						Strategic Research for the Internet organized by
+						<br />
+						<a href="https://fapesp.br/">São Paulo State Science Foundation (FAPESP)</a>
+					</p>
+				</div>
 			</div>
 		</div>
 	</section>
 
 	<!-- About -->
 	<section id="about-index">
-		<div class="content box style2" style="align-content:center; text-align:center">
-			<header>
-				<div id="subtitle">
-					<h2 style="font-size: 250%;">About</h2>
+		<div class="container-fluid">
+			<div class="content box style2 text-center">
+				<header>
+					<div id="subtitle">
+						<h2 style="font-size: 250%;">About</h2>
+					</div>
+				</header>
+
+				<p>The project has the following main goals:</p>
+
+				<ol id="home-list" class="mb-4">
+					<li><a>Identify</a>, <a>model</a>, and <a>evaluate</a> malicious behavior on the Internet of Things
+						(IoT);</li>
+					<li><a>Help</a> in the construction of advanced and coordinated solutions to enable: prevention,
+						prediction, detection, and mitigation of DDoS attacks;</li>
+					<li>Provide to the scientific community in Cybersecurity a testbed to allow researchers to
+						experiment their solutions regarding DDoS attacks.</li>
+				</ol>
+
+				<div>
+					<button id="about-button" onclick="window.location.href = 'about.html';">Learn more</button>
 				</div>
-			</header>
 
-			<p>The project has the following main goals:</p>
 
-			<ol id="home-list">
-
-				<li><a>Identify</a>, <a>model</a>, and <a>evaluate</a> malicious behavior on the Internet of Things
-					(IoT);</li>
-
-				<li><a>Help</a> in the construction of advanced and coordinated solutions to enable: prevention,
-					prediction, detection, and mitigation of DDoS attacks;</li>
-
-				<li>Provide to the scientific community in Cybersecurity a testbed to allow researchers to experiment
-					their solutions regarding to DDoS attacks.</li>
-
-			</ol>
-
-			<div>
-				<button id="about-button" onclick="window.location.href = 'about.html';">Learn more</button>
 			</div>
-
-			<div>
-				<img src="./images/img/infrastructure-mentored.png" class="infrastructure-image"
-					alt="infrastructure image" />
-			</div>
-
-			<figure>
-				<img src="./images/img/151801576_252819606339825_4678085706325935907_o.jpg" class="mission-image"
-					alt="mission image" />
-
-				<figcaption class="mission-legend">
-					“Our mission is to combat DDoS attacks effects and provide an experimental environment to allow
-					researchers to test their solutions against DDoS attacks generated with the support of IoT
-					networks."
-					<br>
-					<a class="mission-legend-signature">The Mentored Project Team</a>
-				</figcaption>
-				<!-- <figcaption>“Our mission is to combat DDoS attacks effects and provide an experimental environment to allow researchers to test their solutions against DDoS attacks generated with the support of IoT networks." </figcaption> -->
-				<!-- <p >The Mentored Project Team</p> -->
-
-			</figure>
-
 		</div>
-
-
-
 	</section>
+
+
+	<!-- Infrastructure Mentored -->
+	<section id="infrastructure-mentored">
+		<div class="container-fluid">
+			<div class="content box style2 text-center">
+				<div>
+					<img src="./images/infrastructure-mentored.png" id="infrastructure-image"
+						alt="infrastructure-mentored image" />
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<!-- Mentored Mission -->
+	<section id="mentored-mission">
+		<div class="container-fluid">
+			<div class="content box style2 text-center d-flex flex-row align-items-center justify-content-center">
+				<figure class="d-flex flex-row align-items-center">
+					<figcaption>
+						<p>“Our mission is to combat DDoS attacks effects and provide an experimental environment to
+							allow researchers to test their solutions against DDoS attacks generated with the support of
+							IoT networks."</p>
+						<p><strong>The Mentored Project Team</strong></p>
+					</figcaption>
+				</figure>
+
+				<img src="./images/Mentored-Mission.jpg" alt="mission image" class="mission-image">
+			</div>
+		</div>
+	</section>
+
 
 	<!-- Contact -->
 	<section id="contact" class="main style3 secondary">
@@ -148,59 +192,67 @@
 				<p>Email: <a style="color: unset;"
 						href="mailto:mentored.project@gmail.com">mentored.project@gmail.com</a></p>
 			</div>
+			<br />
+			<br />
 
-			<div class="box" style="background-color: #ffffff">
+			<!-- <div class="box" style="background-color: #ffffff">
 				<form method="post" action="#">
 					<div class="fields">
-						<div id="contc" class="field half"><input type="text" name="name" placeholder="Name" />
-						</div>
-						<div id="contc" class="field half"><input type="email" name="email" placeholder="Email" /></div>
-						<div id="contc" class="field"><textarea name="subject" placeholder="Subject"></textarea>
-						</div>
-						<div id="contc" class="field"><textarea name="message" placeholder="Message"
-								rows="6"></textarea></div>
+						<div class="field half"><input type="text" name="name" placeholder="Name" /></div>
+						<div class="field half"><input type="email" name="email" placeholder="Email" /></div>
+						<div class="field"><textarea name="subject" placeholder="Subject"></textarea></div>
+						<div class="field"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
 					</div>
 					<ul class="actions special">
 						<li><input type="submit" value="Send" /></li>
 					</ul>
 				</form>
-			</div>
+			</div> -->
 		</div>
 	</section>
 
 	<!--Institutions-->
 	<section id="institutions">
-		<div class="content box style2" style="align-content:center; text-align:justify">
-			<div class="institutions row">
+		<div class="container-fluid">
+			<div class="content box style2 text-center">
 				<header>
 					<div id="subtitle">
 						<h2 style="font-size: 250%;">Institutions</h2>
 					</div>
 				</header>
-				<div class="figure institutions column">
-					<header>
-						<h2>Funding</h2>
-					</header>
-					<a href="https://fapesp.br/"> <img src="./images/img/FAPESP.png" /> </a>
-					<a href="https://www.gov.br/mcti/pt-br"><img src="./images/img/MCTIC.jpg" /> </a>
-					<a href="https://www.cgi.br/"> <img src="./images/img/pngegg.png" /> </a>
-				</div>
-				<div class="figure institutions column">
-					<header>
-						<h2>Partners</h2>
-					</header>
-					<a href="https://dcc.ufmg.br/"><img src="./images/img/ufmg-logo.png" /></a>
-					<a href="https://portal.cin.ufpe.br/"> <img src="./images/img/ufpe-logo-com-nome.jpg" /></a>
-					<a href="https://www5.usp.br/"><img src="./images/img/usp-logo.png" /></a>
-					<a href="https://www.univali.br/"><img src="./images/img/univali-logo.png" /></a>
-					<a href="https://www.ifsc.edu.br/"><img src="./images/img/ifsc-logo.png" /></a>
-					<a href="https://www.rnp.br/"><img src="./images/img/logo.png" /></a>
-				</div>
-				<div class="figure institutions column">
-					<header>
-						<h2>Organizer</h2>
-					</header>
-					<a href="http://www.ccsc-research.org/"><img src="./images/img/michelenog_DP03(1).png" /></a>
+				<div class="row">
+					<div class="col-md-3">
+						<header>
+							<h2>Funding</h2>
+						</header>
+						<a href="https://fapesp.br/"><img src="./images/FAPESP.png" class="img-fluid logos-inst" /></a>
+						<a href="https://www.gov.br/mcti/pt-br"><img src="./images/MCTIC.jpg"
+								class="img-fluid logos-inst" /></a>
+						<a href="https://www.cgi.br/"><img src="./images/cgibr.png" class="img-fluid logos-inst" /></a>
+					</div>
+					<div class="col-md-6">
+						<header>
+							<h2>Partners</h2>
+						</header>
+						<a href="https://dcc.ufmg.br/"><img src="./images/ufmg-logo.png"
+								class="img-fluid logos-inst" /></a>
+						<a href="https://portal.cin.ufpe.br/"><img src="./images/ufpe-logo-com-nome.jpg"
+								class="img-fluid logos-inst" /></a>
+						<a href="https://www5.usp.br/"><img src="./images/usp-logo.png"
+								class="img-fluid logos-inst" /></a>
+						<a href="https://www.univali.br/"><img src="./images/univali-logo.png"
+								class="img-fluid logos-inst" /></a>
+						<a href="https://www.ifsc.edu.br/"><img src="./images/ifsc-logo.png"
+								class="img-fluid logos-inst" /></a>
+						<a href="https://www.rnp.br/"><img src="./images/rnp.png" class="img-fluid logos-inst" /></a>
+					</div>
+					<div class="col-md-3">
+						<header>
+							<h2>Organizer</h2>
+						</header>
+						<a href="http://www.ccsc-research.org/"><img src="./images/ccsc-research.png"
+								class="img-fluid logos-inst" /></a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -212,11 +264,11 @@
 
 		<!-- Icons -->
 		<ul class="icons">
-			<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 			<li><a href="https://www.facebook.com/mentoredproject/" class="icon brands fa-facebook-f"><span
 						class="label">Facebook</span></a></li>
-			<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-			<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+			<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
+			<!-- <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+			<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li> -->
 		</ul>
 
 		<!-- Menu -->
@@ -235,6 +287,7 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
 
