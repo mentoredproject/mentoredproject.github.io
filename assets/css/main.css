@@ -2015,7 +2015,6 @@ body.is-touch .poptrox-popup .closer {
 .navbar-toggler {
 	max-width: 150%;
 	max-height: 100%;
-	/* background-color: #D4D4D2; */
 	background-color: #F0FAFF;
 }
 
@@ -2026,17 +2025,17 @@ body.is-touch .poptrox-popup .closer {
 
 .navbar-toggler:hover {
 	background-color: #D4D4D2;
-
 }
 
-.navbar-collapse {
+.navbar-collapse,
+.dropdown-menu {
 	background-color: #192D40;
 }
 
-.nav-item:hover {
+.nav-item:hover,
+.dropdown-item:hover {
 	background-color: #D4D4D2;
 	border-radius: 1em;
-
 }
 
 @media screen and (max-width: 736px) {
@@ -2068,13 +2067,8 @@ body.is-touch .poptrox-popup .closer {
 	}
 
 	.navbar-toggler {
-		/* position: absolute; */
 		bottom: 0.2em;
-		/* background-color: #f9f906; */
 	}
-
-
-
 }
 
 body {
@@ -2519,65 +2513,21 @@ a {
 
 /* Researchers Page */
 
-.researchers {
-	width: 100%;
-}
-
-.researchers.column-two {
-	float: left;
-	width: 25%;
-}
-
-.researchers.column-one {
-	float: left;
-	width: 50%;
-}
-
-.row::after {
-	content: "";
-	clear: both;
-	display: table;
-}
-
-@media screen and (max-width: 500px) {
-	.column {
-		width: 100%;
-	}
-}
-
-div.figure {
-	text-align: center;
-	font-size: smaller;
-	color: black;
-	left: 0;
-	top: 0;
-	line-height: 1px;
-
-}
-
 #people a {
 	color: inherit;
 }
 
-#people h3 {
+#students li {
+	list-style-type: disc;
+	color: #192D40;
+	padding: 0.5em;
+	list-style: inside;
+	padding: 0 1.5%;
+}
+#students a {
 	color: #192D40;
 }
 
-/* .logos-inst {
-	width: 10%;
-	text-align: center;
-} */
-
-.institutions.column {
-	float: left;
-	width: 33.33%;
-}
-
-.row::after {
-	content: "";
-	clear: both;
-	display: table;
-}
 
 #institutions {
 	font-size: 1.4vw;
@@ -2585,33 +2535,12 @@ div.figure {
 }
 
 
-@media screen and (max-width: 500px) {
-	.column {
-		width: 100%;
-	}
-}
-
 @media screen and (max-width: 736px) {
-	#institutions .row {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-	}
-
-	#institutions .figure.column {
-		width: 100%;
-		text-align: center;
-		margin-bottom: 2rem;
-	}
-
 	.logos-inst {
 		width: 5%;
 	}
 }
 
-.universities-title {
-	columns: 2;
-}
 
 /* Calls 2 */
 
