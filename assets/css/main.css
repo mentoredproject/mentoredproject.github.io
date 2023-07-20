@@ -2523,11 +2523,21 @@ a {
 	padding: 0.5em;
 	list-style: inside;
 	padding: 0 1.5%;
+	/* font-weight: bold; */
 }
 #students a {
 	color: #192D40;
 }
 
+#students h3{
+	color: whitesmoke;
+	background-color: #192D40;
+	padding: 0.5em;
+	border-radius: 0.5em;
+	/* max-width: fit-content; */
+	/* center the texto */
+	
+}
 
 #institutions {
 	font-size: 1.4vw;
